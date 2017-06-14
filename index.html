@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Pomodoro Clock</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<div class=container-fluid>
+
+  <h1>Pomodoro Clock</h1>
+  <img src="https://www.gsdfaster.com/media/blog/pomodoro-counter-empty.png" class="img-responsive"></img>
+  <div class="row time">
+    <div class="col-xs-4">
+      <h2 id="minutes">25</h2>
+    </div>
+    <div class="col-xs-4">
+      <h2>:</h2>
+    </div>
+    <div class="col-xs-4">
+      <h2 id="seconds">00</h2>
+    </div>
+  </div>
+  <div class="row session">
+    <div class="col-xs-4">
+      <h3>Session&nbsp</h3>
+    </div>
+    <div class="col-xs-4">
+      <h3 id="session">1</h3>
+    </div>
+  </div>
+  
+  <div class="row ">
+    <div class="col-xs-6 lengthStitle">
+      <h4>Session Length</h4>
+    </div>
+    
+    <div class="col-xs-6 lengthBtitle">
+      <h4>Break Length</h4>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-2 lengthS-">
+      <h5>-</h5>
+    </div>
+    <div class="col-xs-2 lengthStime">
+      <h5 id="sessionL">25:00</h5>
+    </div>
+    <div class="col-xs-2 lengthSplus">
+      <h5>+</h5>
+    </div>
+    <div class="col-xs-2 lengthB-">
+      <h5>-</h5>
+    </div>
+    <div class="col-xs-2 lengthBtime">
+      <h5 id="breakL">05:00</h5>
+    </div>
+    <div class="col-xs-2 lengthBplus">
+      <h5>+</h5>
+    </div>
+  </div>
+
+  <button class="btn" id="btnStart">Start</button>
+  <button class="btn" id="btnReset">Reset</button> 
+
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
