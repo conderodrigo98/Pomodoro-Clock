@@ -1,3 +1,3 @@
-A Pen created at CodePen.io. You can find this one at http://codepen.io/conderodrigo98/pen/zzGqwm.
+One of my free code camp projects. This app is a fully functional Pomodoro Clock.
 
  
